@@ -31,3 +31,4 @@
 <!--Extras -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage" />        
            
+</manifest>

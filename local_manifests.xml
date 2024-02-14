@@ -12,9 +12,12 @@
            fetch="https://github.com/krishnaspeace"
            clone-depth="1" />
            
-  <remote name="lineage"
+  <remote name="lineage-20"
            fetch="https://github.com/LineageOS/"
-           clone-depth="1" />         
+           clone-depth="1" />      
+  <remote name="lineage-21"
+           fetch="https://github.com/LineageOS/"
+           clone-depth="1" />       
            
 <!--Tree -->
  <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="kr" revision="lineage-21" />
@@ -29,6 +32,6 @@
  <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="xdev" revision="lineage-21" />  
   
 <!--Extras -->
-<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage" />        
+<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-21" />        
            
 </manifest>

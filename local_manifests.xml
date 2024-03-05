@@ -1,39 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="xdev"
-           fetch="https://github.com/xiaomi-msm8953-devs"
-           clone-depth="1" />
-           
-  <remote name="gio"
-           fetch="https://gitlab.com/itsvixano-dev"
-           clone-depth="1" />
-           
-  <remote name="kr"
+  <remote name="sai"
+          fetch="https://github.com/saikrishna1504"
+          revision="udc" />
+
+  <remote name="dj"
+          fetch="https://github.com/begonia-dev"
+          revision="14.0" />
+
+    <remote name="kr"
            fetch="https://github.com/krishnaspeace"
            clone-depth="1" />
-           
-  <remote name="lineage-20"
-           fetch="https://github.com/LineageOS/"
-           clone-depth="1" />  
-               
-  <remote name="lineage-21"
-           fetch="https://github.com/LineageOS/"
-           clone-depth="1" />       
-           
-<!--Tree -->
- <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="kr" revision="lineage-21" />
- 
-<!--Kernel -->
- <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="xdev" revision="lineage-21" />
- 
- <!--Vendor -->
- <project path="vendor/xiaomi/ysl" name="proprietary_vendor_xiaomi_ysl" remote="xdev" revision="lineage-21" />
- 
- <!--Common tree -->
- <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="xdev" revision="lineage-21" />
-  <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" remote="xdev" revision="lineage-21" />
-  
-<!--Extras -->
-<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-21" />
-           
+
+  <!-- device -->
+  <project path="device/redmi/begonia" name="device_redmi_begonia" remote="kr" />
+  <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="sai" />
+
+  <!-- kernel -->
+  <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="sai" />
+
+  <!-- vendor -->
+  <project path="vendor/redmi/begonia" name="vendor_redmi_begonia" remote="sai" />
+  <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="sai" />
+  <project path="vendor/redmi/begonia-ims" name="vendor_redmi_begonia-ims" remote="dj" />
+
+
+  <!-- hardware -->
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="sai" />
 </manifest>

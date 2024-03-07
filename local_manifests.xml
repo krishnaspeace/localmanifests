@@ -22,7 +22,7 @@
   <!-- vendor -->
   <project path="vendor/redmi/begonia" name="vendor_redmi_begonia" remote="sai" />
   <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="sai" />
-  <project path="vendor/redmi/begonia-ims" name="vendor_redmi_begonia-ims" remote="dj" />
+  <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="dj" />
 
 
   <!-- hardware -->

@@ -2,18 +2,20 @@
 <manifest>
   <remote name="sai"
           fetch="https://github.com/saikrishna1504"
-          revision="udc" />
+          revision="udc"
+          clone-depth="1" />
 
   <remote name="dj"
           fetch="https://github.com/begonia-dev"
-          revision="14.0" />
+          revision="14.0"
+          clone-depth="1" />
 
     <remote name="kr"
            fetch="https://github.com/krishnaspeace"
            clone-depth="1" />
 
   <!-- device -->
-  <project path="device/redmi/begonia" name="device_redmi_begonia" remote="kr" revision="udc" />
+  <project path="device/redmi/begonia" name="device_redmi_begonia" remote="kr" revision="rising" />
   <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="sai" />
 
   <!-- kernel -->

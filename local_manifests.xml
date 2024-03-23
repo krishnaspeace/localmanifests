@@ -21,7 +21,7 @@
 
   <!-- vendor -->
   <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="dj" revision="14.0" />
-  <project path="vendor/redmi/begonia-firmware" name="android_vendor_redmi_begonia-firmware" remote="dj" revision="14.0" />
+  <project path="vendor/redmi/begonia-firmware" name="android_vendor_redmi_begonia-firmware" remote="dj" revision="11.0" />
   <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="dj" revision="14.0" />
 
   <!-- packages -->

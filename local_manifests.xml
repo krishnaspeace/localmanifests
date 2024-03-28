@@ -28,5 +28,5 @@
   <project path="packages/apps/MtkFMRadio" name="android_packages_apps_RevampedFMRadio" remote="dj" revision="14.0" /> 
 
   <!-- hardware -->
-  <project path="hardware/mediatek" name="hardware_mediatek" remote="dj" revision="14.0" />
-</manifest>
+  <!-- project path="hardware/mediatek" name="hardware_mediatek" remote="dj" revision="14.0" />
+</manifest -->

@@ -13,7 +13,7 @@
            clone-depth="1" />
 
   <!-- device -->
-  <project path="device/redmi/begonia" name="device_redmi_begonia" remote="kr" revision="evo" />
+  <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="kr" revision="evo" />
   <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="sai" revision="udc" />
 
   <!-- kernel -->

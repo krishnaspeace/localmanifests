@@ -20,13 +20,6 @@
            fetch="https://github.com/LineageOS/"
            clone-depth="1" />       
            
-  <remote name="opengapps" 
-          fetch="https://github.com/opengapps/"  
-          clone-depth="1" />
-  <remote name="opengapps-gitlab" 
-          fetch="https://gitlab.opengapps.org/opengapps/"  
-          clone-depth="1"/>
-           
 <!--Tree -->
  <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="kr" revision="lineage-21" />
  
@@ -42,11 +35,5 @@
   
 <!--Extras -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-21" />
-
-<!--Open gapps -->
-<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
            
 </manifest>

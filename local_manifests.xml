@@ -12,7 +12,7 @@
            fetch="https://github.com/Nova-Kernels"
            clone-depth="1" />
   <!-- device -->
-  <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="kr" revision="everest" />
+  <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="kr" revision="bliss" />
   <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="dj" revision="14.0" />
 
   <!-- kernel -->

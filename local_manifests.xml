@@ -24,10 +24,6 @@
   <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="dj" revision="14.0" />
   
   <!-- hardware -->
-<<<<<<< HEAD
-  <remove-project name="android_hardware_mediatek" />
-=======
->>>>>>> 7097270 (manifest: renaming hardware/xiaomi)
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dj" revision="14.0" />
 </manifest >
 

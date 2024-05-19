@@ -24,7 +24,7 @@
   <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="dj" revision="14.0" />
   
   <!-- hardware -->
-  <remove-project name="xiaomi-mediatek-devs/android_hardware_mediatek" />
+  <remove-project name="android_hardware_mediatek" />
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dj" revision="14.0" />
 </manifest >
 

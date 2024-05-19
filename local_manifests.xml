@@ -12,7 +12,7 @@
            fetch="https://github.com/Nova-Kernels"
            clone-depth="1" />
   <!-- device -->
-  <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="kr" revision="everest" />
+  <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="kr" revision="pixy" />
   <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="dj" revision="14.0" />
 
   <!-- kernel -->
@@ -24,7 +24,7 @@
   <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="dj" revision="14.0" />
   
   <!-- hardware -->
-  <remove-project name="xiaomi-mediatek-devs/android_hardware_mediatek" />
+  <remove-project name="hardware_mediatek" />
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dj" revision="14.0" />
 </manifest >
 

@@ -11,6 +11,11 @@
     <remote name="nova"
            fetch="https://github.com/Nova-Kernels"
            clone-depth="1" />
+           
+    <remote name="cam" 
+           fetch="https://bitbucket.org/Saikrishna1504"
+           clone-depth="1" />
+           
   <!-- device -->
   <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="kr" revision="bliss" />
   <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="dj" revision="14.0" />
@@ -25,5 +30,9 @@
   
   <!-- hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dj" revision="14.0" />
+  
+  <!-- Leica Cam -->
+    <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica"
+        remote="cam" />
+        
 </manifest >
-

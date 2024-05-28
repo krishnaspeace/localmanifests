@@ -33,6 +33,6 @@
   
   <!-- Leica Cam -->
     <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica"
-        remote="cam" />
+        remote="cam" revision="udc" />
         
 </manifest >

@@ -31,9 +31,8 @@
   <!-- hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dj" revision="14.0" />
   
-  <!-- Extra -->
-  <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica" remote="cam" revision="udc" />
-  <project path="packages/apps/HyperOsGallery" name="packages_app_HyperOsGallery" remote="kr" revision="main" />
-  
+  <!-- Leica Cam -->
+    <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica"
+        remote="cam" />
         
 </manifest >

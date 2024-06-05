@@ -16,9 +16,13 @@
            fetch="https://bitbucket.org/Saikrishna1504"
            clone-depth="1" />
            
+    <remote name="sai"
+            fetch="https://github.com/Saikrishna1504"
+            clone-depth="1" />
+           
   <!-- device -->
   <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="kr" revision="bliss" />
-  <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="dj" revision="14.0" />
+  <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="kr" revision="14.0" />
 
   <!-- kernel -->
   <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="nova" revision="rebase-nonderp" />
@@ -31,8 +35,9 @@
   <!-- hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dj" revision="14.0" />
   
-  <!-- Leica Cam -->
-    <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica"
-        remote="cam" revision="udc" />
+  <!-- Extra -->
+  <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica" remote="cam" revision="udc" />
+  <project path="hardware/dolby" name="hardware_dolby" remote="sai" revision="14" />
+  
         
 </manifest >

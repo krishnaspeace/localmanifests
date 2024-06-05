@@ -15,10 +15,7 @@
     <remote name="cam" 
            fetch="https://bitbucket.org/Saikrishna1504"
            clone-depth="1" />
-    
-    <remote name="hyper"
-            fetch="https://github.com/HyperNotAryanX97"
-            clone-depth="1" />         
+           
   <!-- device -->
   <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="kr" revision="bliss" />
   <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="dj" revision="14.0" />
@@ -27,7 +24,7 @@
   <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="nova" revision="rebase-nonderp" />
 
   <!-- vendor -->
-  <project path="vendor/redmi/begonia" name="vendor_redmi_begonia" remote="hyper" revision="PixelOS" />
+  <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="dj" revision="14.0" />
   <project path="vendor/redmi/begonia-firmware" name="android_vendor_redmi_begonia-firmware" remote="kr" revision="14.0" />
   <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="dj" revision="14.0" />
   

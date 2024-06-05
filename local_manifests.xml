@@ -24,7 +24,7 @@
   <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="nova" revision="rebase-nonderp" />
 
   <!-- vendor -->
-  <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="dj" revision="14.0" />
+  <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="kr" revision="14.0" />
   <project path="vendor/redmi/begonia-firmware" name="android_vendor_redmi_begonia-firmware" remote="kr" revision="14.0" />
   <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="dj" revision="14.0" />
   

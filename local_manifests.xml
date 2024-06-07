@@ -42,7 +42,5 @@
   <!-- Extra -->
   <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica" remote="cam" revision="udc" />
   <project path="hardware/dolby" name="hardware_dolby" remote="sai" revision="14" />
-  <project path="prebuilts/clang/host/linux-x86/clang-neutron" name="clang-neutron" remote="krishna" revision="main" />
-  
         
 </manifest >

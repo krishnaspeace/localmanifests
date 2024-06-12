@@ -29,7 +29,7 @@
   <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="kr" revision="14.0" />
 
   <!-- kernel -->
-  <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="nova" revision="rebase-nonderp" />
+  <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="kr" revision="non-derp" />
 
   <!-- vendor -->
   <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="kr" revision="14.0" />
@@ -42,7 +42,5 @@
   <!-- Extra -->
   <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica" remote="cam" revision="udc" />
   <project path="hardware/dolby" name="hardware_dolby" remote="sai" revision="14" />
-  <project path="prebuilts/clang/host/linux-x86/clang-neutron" name="clang-neutron" remote="krishna" revision="main" />
-  
         
 </manifest >

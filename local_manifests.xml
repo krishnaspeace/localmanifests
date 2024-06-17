@@ -12,7 +12,7 @@
            fetch="https://github.com/krishnaspeace"
            clone-depth="1" />
            
-  <remote name="lineage-20"
+  <remote name="lineage-21"
            fetch="https://github.com/LineageOS/"
            clone-depth="1" />  
                

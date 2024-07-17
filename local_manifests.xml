@@ -14,11 +14,11 @@
            
   <remote name="lineage-20"
            fetch="https://github.com/LineageOS/"
-           clone-depth="1" />  
-               
-  <remote name="gcam"
-           fetch="https://github.com/ArrowOS-Devices"
-           clone-depth="1" />       
+           clone-depth="1" />               
+           
+  <remote name="harsh"
+           fetch="https://github.com/Harsh-Tagra"
+           clone-depth="1" />
            
 
 <!--Tree -->
@@ -36,6 +36,6 @@
   
 <!--Extras -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-21" />
-<project path="packages/apps/GCamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="gcam" revision="arrow-13.1" />
+<project path="packages/apps" name="PrebuiltApps" remote="harsh" revision="main" />
            
 </manifest>

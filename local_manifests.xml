@@ -37,10 +37,10 @@
   <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="dj" revision="14.0" />
   
   <!-- hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dj" revision="14.0" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="sai" revision="udc" />
   
   <!-- Extra -->
   <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica" remote="cam" revision="udc" />
-  <project path="hardware/dolby" name="hardware_dolby" remote="sai" revision="14" />
+  <project path="hardware/dolby" name="hardware_dolby" remote="sai" revision="udc" />
         
 </manifest >

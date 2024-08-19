@@ -40,7 +40,7 @@
   <project path="hardware/mediatek" name="hardware_mediatek" remote="sai" revision="udc" />
   
   <!-- Extra -->
-  <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica" remote="cam" revision="udc" />
+  <!-- project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica" remote="cam" revision="udc" / -->
   <project path="hardware/dolby" name="hardware_dolby" remote="sai" revision="udc" />
         
 </manifest >
